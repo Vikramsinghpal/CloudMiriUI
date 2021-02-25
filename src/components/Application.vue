@@ -270,7 +270,7 @@ export default {
       document.getElementById("test2").setAttribute('class', 'backBtn switch expanded');
      if(this.ProductCategoryId==7){
             // this.filteredList(){
-              Vue.axios('http://192.168.1.42:5672/api/Application/GetProductByCategories?ProductCategory=7')
+              Vue.axios('http://192.168.1.42:5672/api/Application/GetProductByCategories?ProductCategory=' + this.ProductCategoryId)
               .then((azurepro) =>{
                    this.CloudProducts=azurepro.data.response; 
                      this.$loading(false)                 
