@@ -317,7 +317,7 @@ export default {
               .then((azurepro) =>{
                    this.CloudProducts=azurepro.data.response;                  
                    console.log(this.CloudProducts)                   
-                   for (var i = 0; i < this.CloudProducts.length; i++) {
+                   for (var i = 0; i < this.CloudProducts.length; i++) {//derewrw
                       if (this.CloudProducts[i].ProductAlias != null) {
                              this.CloudProducts[i].ProductAliasArray = this.CloudProducts[i].ProductAlias.split(',');
                              
