@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+/* colors */
+
+
+/* sizes */
+
+html,
+body {
+    background-color: rgba(0, 0, 0, .05);
+    font-size: 0.95rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #fff;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.nav-link .user-image {
+    float: left;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: -5px;
+    border: 2px solid #ccc;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+}
+
+#left-sidebar-open {
+    background-color: #2d353d;
+    min-height: calc(100vh - 55px);
+    border-radius: 0;
+}
+
+.sidenav a i {
+    margin-right: 5px;
+}
+
+.sidenav a {
+    color: #fff;
+    display: block;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 0;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+    z-index: 100;
+}
+
+.scroll-to-top button,
+.scroll-to-top button:focus {
+    padding: 5px 13px;
+    background: #fe2712;
+    border: 0px none;
+    border-radius: 5px 0 0 5px;
+    color: #fff;
+    outline: none;
+}
+
+.show-scrollTop {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+}
+
+.bg-faded {
+    background-color: #f7f7f7;
+}
+
+.lockscreen {
+    background: #d2d6de
+}
+
+.lockscreen-logo {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 300
+}
+
+.lockscreen-logo a {
+    color: #444
+}
+
+.lockscreen-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 10%
+}
+
+.lockscreen .lockscreen-name {
+    text-align: center;
+    font-weight: 600
+}
+
+.lockscreen-item {
+    border-radius: 4px;
+    padding: 0;
+    background: #fff;
+    position: relative;
+    margin: 10px auto 30px auto;
+    width: 290px
+}
+
+.lockscreen-image {
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    top: -25px;
+    background: #fff;
+    padding: 5px;
+    z-index: 10
+}
+
+.lockscreen-image>img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px
+}
+
+.lockscreen-credentials {
+    margin-left: 70px
+}
+
+.lockscreen-credentials .form-control {
+    border: 0
+}
+
+.lockscreen-credentials .btn {
+    background-color: #fff;
+    border: 0;
+    padding: 0 10px
+}
+
+.lockscreen-footer {
+    margin-top: 10px
+}
+
+.table {
+    background-color: #fff;
+}
+
+.box-title {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.ngx-pagination {
+    margin: 0 0 1rem 0;
+    padding: 0;
+}
+
+.ngx-pagination .disabled {
+    color: #9e9e9e;
+}
